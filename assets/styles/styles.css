@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+
+  header{
+    min-height: 15vh;
+
+  }
+
+  div img{
+    object-fit: cover;
+    width: 24vw;
+    height: 50px;
+  }
+
+  h1{
+    background-color: rgb(109, 109, 109);
+    color: beige;
+    text-align: center;
+  }
+
+  main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav{
+    background-color: rgb(109, 109, 109);
+    height: 70vh;
+    width: 15vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgnav{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 40px;
+    margin-top: 10px;
+  }
+  nav a{
+    color: beige;
+    text-decoration: none;
+    border: none;
+
+  }
+  .DivBuy{
+    height: 50vh;
+    width: 20vw;
+    background-color: rgb(109, 109, 109);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+  }
+  .imgbuy{
+    height: 60%;
+    border-radius: 10px;
+    width: 80%;
+  }
+
+  a{
+    color: beige;
+    text-decoration: none;
+    border: 2px solid beige;
+    margin-top: 10%;
+  }
+  h2{
+    color: beige;
+  }
+
+  footer{
+    background-color: black;
+    min-height: 15vh;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  legend{
+    color: beige;
+  }
+  footer a{
+    color: beige;
+  }
+  p{
+    color: beige;
+  }
+  p a{
+    background-color: rgb(109, 109, 109);
+    text-decoration: none;
+    border-radius: 7px;
+    border: none;
+  }
